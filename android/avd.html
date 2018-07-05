@@ -1,0 +1,888 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Lottie vs AVD · Lottie</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="troubleshooting.html" />
+    
+    
+    <link rel="prev" href="performance.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="android.html">
+            
+                <a href="android.html">
+            
+                    
+                    Android
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="android.html">
+            
+                <a href="android.html#getting-started">
+            
+                    
+                    开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="android.html">
+            
+                <a href="android.html#sample-app">
+            
+                    
+                    示例 App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="caching.html">
+            
+                <a href="caching.html">
+            
+                    
+                    Caching and Preloading
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="colors.html">
+            
+                <a href="colors.html">
+            
+                    
+                    Dynamic Colors
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="images.html">
+            
+                <a href="images.html">
+            
+                    
+                    图片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="performance.html">
+            
+                <a href="performance.html">
+            
+                    
+                    性能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.7" data-path="avd.html">
+            
+                <a href="avd.html">
+            
+                    
+                    Lottie vs AVD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="troubleshooting.html">
+            
+                <a href="troubleshooting.html">
+            
+                    
+                    Troubleshooting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="contributing.html">
+            
+                <a href="contributing.html">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../ios.html">
+            
+                <a href="../ios.html">
+            
+                    
+                    iOS/MacOS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../ios.html">
+            
+                <a href="../ios.html#getting-started-on-ios-or-macos">
+            
+                    
+                    开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../ios.html">
+            
+                <a href="../ios.html#installing-lottie">
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../ios.html">
+            
+                <a href="../ios.html#ios-sample-app">
+            
+                    
+                    iOS 示例 App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../ios.html">
+            
+                <a href="../ios.html#macos-sample-app">
+            
+                    
+                    MacOS 示例 App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../ios.html">
+            
+                <a href="../ios.html#objective-c-examples">
+            
+                    
+                    Objective C 示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../ios.html">
+            
+                <a href="../ios.html#swift-examples">
+            
+                    
+                    Swift 示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../ios/view-controllers.html">
+            
+                <a href="../ios/view-controllers.html">
+            
+                    
+                    View Controller 转场动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../ios/dynamic.html">
+            
+                <a href="../ios/dynamic.html">
+            
+                    
+                    运行中修改动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../ios/addsubviews.html">
+            
+                <a href="../ios/addsubviews.html">
+            
+                    
+                    运行中为动画添加视图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../ios/performance.html">
+            
+                <a href="../ios/performance.html">
+            
+                    
+                    性能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../ios/troubleshooting.html">
+            
+                <a href="../ios/troubleshooting.html">
+            
+                    
+                    Troubleshooting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../react-native/react-native.html">
+            
+                <a href="../react-native/react-native.html">
+            
+                    
+                    React Native
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../react-native/react-native.html">
+            
+                <a href="../react-native/react-native.html#getting-started">
+            
+                    
+                    开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../react-native/react-native.html">
+            
+                <a href="../react-native/react-native.html#sample-app">
+            
+                    
+                    示例 App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../react-native/props.html">
+            
+                <a href="../react-native/props.html">
+            
+                    
+                    Props
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../react-native/troubleshooting.html">
+            
+                <a href="../react-native/troubleshooting.html">
+            
+                    
+                    Troubleshooting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../after-effects/getting-started.html">
+            
+                <a href="../after-effects/getting-started.html">
+            
+                    
+                    After Effects
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../after-effects/getting-started.html">
+            
+                <a href="../after-effects/getting-started.html">
+            
+                    
+                    开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../after-effects/bodymovin-installation.html">
+            
+                <a href="../after-effects/bodymovin-installation.html">
+            
+                    
+                    安装 Bodymovin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../after-effects/general-tips.html">
+            
+                <a href="../after-effects/general-tips.html">
+            
+                    
+                    提示和指导
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../after-effects/supported-features.html">
+            
+                <a href="../after-effects/supported-features.html">
+            
+                    
+                    支持的特性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../after-effects/artwork-to-lottie-walkthrough.html">
+            
+                <a href="../after-effects/artwork-to-lottie-walkthrough.html">
+            
+                    
+                    Sketch/SVG/Illustrator to Lottie 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../after-effects/illustrator-to-lottie-walkthrough.html">
+            
+                <a href="../after-effects/illustrator-to-lottie-walkthrough.html">
+            
+                    
+                    Illustrtor to Lottie 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../after-effects/debugging.html">
+            
+                <a href="../after-effects/debugging.html">
+            
+                    
+                    调试 animations
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../other-platforms.html">
+            
+                <a href="../other-platforms.html">
+            
+                    
+                    其他平台
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" >
+            
+                <span>
+            
+                    
+                    Mobile
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" >
+            
+                <a target="_blank" href="https: //github.com/martijn00/LottieXamarin">
+            
+                    
+                    Xamarin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" >
+            
+                <a target="_blank" href="https://github.com/bradmartin/nativescript-lottie">
+            
+                    
+                    NativeScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" >
+            
+                <a target="_blank" href="https://github.com/m1ga/ti.animation">
+            
+                    
+                    Titanium
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.4" >
+            
+                <a target="_blank" href="https://github.com/azchohfi/LottieUWP">
+            
+                    
+                    Windows (UWP)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" >
+            
+                <span>
+            
+                    
+                    Web
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" >
+            
+                <a target="_blank" href="https://github.com/chenqingspring/react-lottie">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" >
+            
+                <a target="_blank" href="https://github.com/chenqingspring/vue-lottie">
+            
+                    
+                    Vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.3" >
+            
+                <a target="_blank" href="https://github.com/chenqingspring/ng-lottie">
+            
+                    
+                    Angular
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../troubleshooting.html">
+            
+                <a href="../troubleshooting.html">
+            
+                    
+                    Troubleshooting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../community-showcase.html">
+            
+                <a href="../community-showcase.html">
+            
+                    
+                    Community Showcase
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Lottie vs AVD</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="lottie-vs-android-vector-drawable-avd"><a name="lottie-vs-android-vector-drawable-avd" class="plugin-anchor" href="#lottie-vs-android-vector-drawable-avd"><i class="fa fa-link" aria-hidden="true"></i></a>Lottie vs Android Vector Drawable (AVD)</h1>
+<p>&#x6709;&#x4E24;&#x79CD;&#x65B9;&#x5F0F;&#x6E32;&#x67D3;After Effects&#x52A8;&#x753B;&#xFF1A;</p>
+<ol>
+<li>&#x7528;Bodymovin&#x5BFC;&#x51FA;json&#x6587;&#x4EF6;&#xFF0C;&#x901A;&#x8FC7;lottie-android&#x6267;&#x884C;&#x3002;</li>
+<li>&#x7528;Bodymovin&#x5BFC;&#x51FA;AndroidVectorDrawable xml&#xFF0C;&#x901A;&#x8FC7;Android SDK&#x6267;&#x884C;&#x3002;</li>
+</ol>
+<h2 id="lottie&#x7684;&#x4F18;&#x52BF;"><a name="lottie&#x7684;&#x4F18;&#x52BF;" class="plugin-anchor" href="#lottie&#x7684;&#x4F18;&#x52BF;"><i class="fa fa-link" aria-hidden="true"></i></a>Lottie&#x7684;&#x4F18;&#x52BF;</h2>
+<ul>
+<li>&#x652F;&#x6301;&#x4E00;&#x7CFB;&#x5217;After Effects&#x7279;&#x6027;&#x3002;&#x67E5;&#x770B;&#x5B8C;&#x6574;<a href="../after-effects/supported-features.html">&#x529F;&#x80FD;&#x652F;&#x6301;</a>&#x5217;&#x8868;&#x3002;</li>
+<li>&#x652F;&#x6301;&#x624B;&#x52A8;&#x5C06;&#x52A8;&#x753B;&#x4E0E;&#x624B;&#x52BF;&#xFF0C;&#x4E8B;&#x4EF6;&#x7B49;&#x5173;&#x8054;&#x3002;</li>
+<li>&#x652F;&#x6301;&#x901A;&#x8FC7;&#x7F51;&#x7EDC;&#x52A0;&#x8F7D;&#x52A8;&#x753B;&#x3002;</li>
+<li>&#x652F;&#x6301;&#x63A7;&#x5236;&#x64AD;&#x653E;&#x901F;&#x5EA6;&#x3002;</li>
+</ul>
+<h2 id="animatedvectordrawable&#x7684;&#x4F18;&#x52BF;"><a name="animatedvectordrawable&#x7684;&#x4F18;&#x52BF;" class="plugin-anchor" href="#animatedvectordrawable&#x7684;&#x4F18;&#x52BF;"><i class="fa fa-link" aria-hidden="true"></i></a>AnimatedVectorDrawable&#x7684;&#x4F18;&#x52BF;</h2>
+<ul>
+<li>&#x7531;&#x4E8E;&#x52A8;&#x753B;&#x5728;<a href="https://medium.com/@workingkills/understanding-the-renderthread-4dc17bcaf979" target="_blank">&#x6E32;&#x67D3;&#x7EBF;&#x7A0B;</a>&#x4E0A;&#x6267;&#x884C;&#x800C;&#x4E0D;&#x662F;&#x4E3B;&#x7EBF;&#x7A0B;&#xFF0C;&#x56E0;&#x6B64;&#x6027;&#x80FD;&#x66F4;&#x597D;&#x3002;</li>
+</ul>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="performance.html" class="navigation navigation-prev " aria-label="Previous page: 性能">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="troubleshooting.html" class="navigation navigation-next " aria-label="Next page: Troubleshooting">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Lottie vs AVD","level":"1.2.7","depth":2,"next":{"title":"Troubleshooting","level":"1.2.8","depth":2,"path":"android/troubleshooting.md","ref":"android/troubleshooting.md","articles":[]},"previous":{"title":"性能","level":"1.2.6","depth":2,"path":"android/performance.md","ref":"android/performance.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","prism@2.0.0","-highlight","github","-search","codeblock-disable-glossary","collapsible-chapters","anchors"],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/airbnb/lottie/"},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"codeblock-disable-glossary":{},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/airbnb/lottie"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"androidVersion":"2.2.0","iosVersion":"2.0.3","reactNativeVersion":"2.2.0"},"title":"Lottie","gitbook":"3.2.2","description":"After Effects Animations for Android, iOS, React Native, and Web"},"file":{"path":"android/avd.md","mtime":"2017-08-29T02:29:27.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-08-29T03:25:15.850Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-codeblock-disable-glossary/disable-glossary.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
